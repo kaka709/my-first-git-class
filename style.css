@@ -8,14 +8,20 @@
 body{
     background-color: #222;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
+header{
+    /* display: flex;
+    justify-content: space-between; */
     width: 100%;
-    background-image: linear-gradient (rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./images/netflix5.webp');
     background-size: cover;
     background-position: center;
     padding: 12px 8px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
 }
 nav{
     justify-content:space-between;
@@ -60,7 +66,7 @@ button a{
     }
 }
 .hero-sect{
-    background-color: #222 ;
+    /* background-color: #222 ; */
     justify-content: space-around;
     display: flex;
     align-items: center;
@@ -222,8 +228,8 @@ margin-top: 1em;
         flex-direction: column;
     }
     .cards{
-        /* width: 100px;
-        height: 100px; */
+        width: 100px;
+        height: 100px;
     }
 }
 @media(max-width:619){
@@ -254,7 +260,7 @@ margin-top: 1em;
     color: white;
 }
 @media(max-width:507px){
-    .h1
+    .h1{
     font-size: 1em;
 }
 .sect-signin{
@@ -319,4 +325,5 @@ footer{
         flex-direction: column;
         align-items: baseline;
     }
+}
 }
